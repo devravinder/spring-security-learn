@@ -12,5 +12,7 @@
 
 4. Curl will handle converting to base64 automatically.  
    eg: curl -u user:password http://localhost:8080/
+    or  
+   eg: curl -H "Authorization: Basic dXNlcjpwYXNzd29yZA==" http://localhost:8080/
 
 5. Spring security won't provide any login / logout pages (bcz every request requires authentication).
