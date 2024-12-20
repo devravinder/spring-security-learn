@@ -2,4 +2,5 @@ rootProject.name = 'spring-security-learn'
 include 'security1-basic'
 include 'security2-basic-explicit'
 include 'security3-basic-max-sessions'
+include 'security4-custom-auth-pages'
 
