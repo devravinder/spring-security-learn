@@ -1,3 +1,4 @@
 rootProject.name = 'spring-security-learn'
 include 'security1-basic'
+include 'security2-basic-explicit'
 
