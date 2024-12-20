@@ -4,4 +4,5 @@ include 'security2-basic-explicit'
 include 'security3-basic-max-sessions'
 include 'security4-custom-auth-pages'
 include 'security5-http-basic-only'
+include 'security6-custom-user-details-service'
 
