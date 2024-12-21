@@ -10,22 +10,18 @@
     ```
    
 
-2. In this project we are using both authentications  
-   - jwt & http basic , so both works
+2. In this project we are using the same application as authorization server & resource server
+   so:
+    1. for authentication, we are using http basic authentication, using this we are getting token
+    2. for authorization, we are using jwt
+3. Usage  
    so:  
      1. to get the token, 
         - call api '/token' with http basic credentials ( username:password )
         ```shell
          curl -u user:password http://localhost:8080/token
-        ```  
-        or
-        ```shell
-         curl -u user:password -X POST http://localhost:8080/token
         ```
      2. use the token for other requests
         ```shell
-         curl -H "Authorization: Bearer <token>" http://localhost:8080/secure
+         curl -H "Authorization: Bearer <token>" http://localhost:8080/message
         ```
-
-3. We can use any authentication method to authenticate the user & to give the token to the user  
-   for the first time, afterward we can use the token to access the resources
