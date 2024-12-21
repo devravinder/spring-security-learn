@@ -8,3 +8,5 @@ include 'security6-custom-user-details-service'
 include 'security7-jwt'
 include 'security8-oauth2-basic:authorization-server'
 include 'security8-oauth2-basic:login'
+include 'security7-jwt-basic'
+
