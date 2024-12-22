@@ -10,8 +10,10 @@
     ```
 
 
-2. In this project we are using the same application as authorization server & resource server
-3. 
+2. In this project we are using the same application as authorization server & resource server.
+   1. in some projects, authorization server & resource server are different applications.
+   2. if one application is just resource server, then jwt encoder is not required.
+
 3. Usage  
    so:
    1. to get the token,

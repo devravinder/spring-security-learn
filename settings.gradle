@@ -9,4 +9,5 @@ include 'security7-jwt-basic'
 include 'security8-jwt-scopes'
 include 'security9-oauth2-basic:authorization-server'
 include 'security9-oauth2-basic:login'
+include 'security10-oauth2-webclient'
 
